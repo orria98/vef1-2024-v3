@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head lang="is">
+        <meta charset="utf-8">
+        <title>Skráning á viðburði</title>
+    </head>
+    <body>
+        <header>
+            <h1>Skráning á viðburði</h1>
+        </header>
+        <main>
+            <nav>
+                <menu>
+                    <ul>
+                        <li><a href="../index.html">Forsíða</a></li>
+                        <li><a href="/sidur/spil.html">Spil</a></li>
+                        <li><a href="/sidur/vidburdir.html">Viðburðir</a></li>
+                    </ul>
+                </menu>
+            </nav>
+            <form style="display:flex; justify-content:space-around; flex-direction: column;">
+                <h3>Viðburður</h3>
+                <select name="viðburðir" id="vidburdir" style="flex: 1; width: 20%">
+                    <option value="">Hvað viðburð viltu koma á?</option>
+                    <option value="ticket-to-ride">Ticket to Ride</option>
+                    <option value="puslkvöld">Púslkvöld</option>
+                </select>
+                <select name="fjöldi" id="fjoldi" style="flex: 2; width: 20%;">
+                    <option value="">Hve mörg?</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <label>Viltu taka eitthvað fram?</label>
+                <input type="text" style="flex: 3; width: 20%">
+                <h3>Panta mat</h3>
+                <select name="panta-mat" id="matur" style="flex: 4; width: 20%">
+                    <option value="">Veldu mat</option>
+                    <option value="pizza-gos">Pizzusneið og gos</option>
+                    <option value="kaffi-kaka">Kaffi og kaka</option>
+                    <option value="ekkert">Engan mat</option>
+                </select>
+                <div style="display: flex; flex-direction: row;">
+                    <label for="a-checkbox">Ofnæmi?</label>
+                    <input type="checkbox" id="a-checkbox">
+                </div>
+                <label>Annað sem við eigum að vita?</label>
+                <input type="text" style="flex: 6; width: 20%">
+                <h3>Þínar upplýsingar</h3>
+                <label>Nafn</label>
+                <input type="text" style="flex: 7; width: 20%">
+                <label>Netfang</label>
+                <input type="text" style="flex: 7; width: 20%">
+                <label>Sími</label>
+                <input type="text" style="flex: 7; width: 20%">
+                <h3>Samþykkja og panta</h3>
+                <div style="display: flex; flex-direction: row;">
+                    <label for="s-checkbox">Ég samþykki skilmála Spilabúðarinnar</label>
+                    <input type="checkbox" id="s-checkbox">
+                </div>
+                <input type="button" value="Panta" style="flex: 7; width: 10%">
+            </form>
+        </main>
+    </body>
+</html>
