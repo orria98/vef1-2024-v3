@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 
 <html lang="is">
-    <head lang="is">
+    <head>
         <meta charset="utf-8">
+        <meta name="description" content="Forsíða Spilabúðarinnar">
         <meta property="og:title" content="Spilabúðin">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://vef1-2024-v2.netlify.app/">
         <meta property="og:description" content="Spilabúðin selur spil, heldur viðburði og býður upp á skemmtilega stund. Kíktu á okkur á Spilagötu 1">
-        <meta property="og:image" content="https://vef1-2024-v2.netlify.app/myndir/spilabudin.jpg">
+        <meta property="og:image" content="https://vef1-2024-v2.netlify.app/myndir/sharing.jpg">
         <title>Spilabúðin</title>
     </head>
     <body>
-        <h1>Spilabúðin</h1>
+        <header>
+            <h1>Spilabúðin</h1>
+            <p>Spilabúðin selur spil, heldur viðburði og býður upp á skemmtilega stund. Kíktu á okkur á Spilagötu 1</p>
+        </header>
+
+        <p><a href="#efni">Beint í efni</a></p>
+
         <nav>
             <ul>
                 <li><a href="/sidur/spil.html">Spil</a></li>
@@ -19,9 +24,11 @@
                 <li><a href="/sidur/vidburdir.html">Viðburðir</a></li>
             </ul>
         </nav>
-        <p>Spilabúðin selur spil, heldur viðburði og býður upp á skemmtilega stund. Kíktu á okkur á Spilagötu 1</p>
-        <img src="myndir/spilabudin.jpg" width="960" alt="spilabudin.jpg">
-        <p>Við seljum allskonar spil fyrir allskonar fólk. <a href="sidur/spil.html">Skoðaðu spilaúrvalið</a></p>
+
+        <main id="efni">
+            <img src="myndir/spilabudin.jpg" width="960" alt="spilabudin.jpg">
+            <p>Við seljum allskonar spil fyrir allskonar fólk. <a href="sidur/spil.html">Skoðaðu spilaúrvalið</a></p>
+        </main>
         <footer style="display: flex; justify-content:space-between;">
             <section style="flex: 1;">
                 <h2>
@@ -38,10 +45,10 @@
                 </h2>
                 <p>
                     Spilabúðin ehf. <br>
-                    Spilgata 1 <br>
+                    Spilagata 1 <br>
                     101 Reykjavík <br>
-                    Sími 123-4567 <br>
-                    spilabudin@example.org
+                    <a href="tel:1234567">Sími 123-4567</a> <br>
+                    <a href="mailto:spilabudin@example.org">spilabudin@example.org</a>
                 </p>
             </section>
             <section style="flex: 3;">
