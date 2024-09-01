@@ -1,108 +1,115 @@
 <!DOCTYPE html>
 <html lang="is">
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="Skráningarsíða fyrir viðburði Spilabúðarinnar">
-        <meta property="og:title" content="Spilabúðin">
-        <meta property="og:description" content="Spilabúðin selur spil, heldur viðburði og býður upp á skemmtilega stund. Kíktu á okkur á Spilagötu 1">
-        <meta property="og:image" content="https://vef1-2024-v2.netlify.app/myndir/sharing.jpg">
-        <title>Spilabúðin</title>
-    </head>
-    <body>
-        <header>
-            <h1>Skráning á viðburði</h1>
-            <p>Hér getur þú skráð þig á viðburðina okkar</p>
-        </header>
-        <p><a href="#efni">Beint í efni</a></p>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Forsíða</a></li>
-                <li><a href="/sidur/spil.html">Spil</a></li>
-                <li><a href="/sidur/vidburdir.html">Viðburðir</a></li>
-            </ul>
-        </nav>
-        <main id="efni">
-            <form style="display:flex; justify-content:space-around; flex-direction: column;">
-                <h3>Viðburður</h3>
-                <select name="viðburðir" id="vidburdir" style="flex: 1; width: 20%">
-                    <option value="">Hvað viðburð viltu koma á?</option>
-                    <option value="ticket-to-ride">Ticket to Ride</option>
-                    <option value="puslkvöld">Púslkvöld</option>
-                </select>
-                <select name="fjöldi" id="fjoldi" style="flex: 2; width: 20%;">
-                    <option value="">Hve mörg?</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                </select>
-                <label>Viltu taka eitthvað fram?</label>
-                <input type="text" style="flex: 3; width: 20%">
-                <h3>Panta mat</h3>
-                <select name="panta-mat" id="matur" style="flex: 4; width: 20%">
-                    <option value="">Veldu mat</option>
-                    <option value="pizza-gos">Pizzusneið og gos</option>
-                    <option value="kaffi-kaka">Kaffi og kaka</option>
-                    <option value="ekkert">Engan mat</option>
-                </select>
-                <div style="display: flex; flex-direction: row;">
-                    <label for="a-checkbox">Ofnæmi?</label>
-                    <input type="checkbox" id="a-checkbox">
-                </div>
-                <label>Annað sem við eigum að vita?</label>
-                <input type="text" style="flex: 6; width: 20%">
-                <h3>Þínar upplýsingar</h3>
-                <label>Nafn</label>
-                <input type="text" style="flex: 7; width: 20%">
-                <label>Netfang</label>
-                <input type="text" style="flex: 7; width: 20%">
-                <label>Sími</label>
-                <input type="text" style="flex: 7; width: 20%">
-                <h3>Samþykkja og panta</h3>
-                <div style="display: flex; flex-direction: row;">
-                    <label for="s-checkbox">Ég samþykki skilmála Spilabúðarinnar</label>
-                    <input type="checkbox" id="s-checkbox">
-                </div>
-                <input type="button" value="Panta" style="flex: 7; width: 10%">
-            </form>
-            <p><a href="../index.html">Aftur á forsíðu</a>.</p>
-        </main>
-        <footer style="display: flex; justify-content:space-between;">
-            <section style="flex: 1;">
-                <h2>
-                    Opnunartími
-                </h2>
-                <p>
-                    Mánudagar <br> Lokað <br> Þriðjudagar til fimmtudags <br> 14:00-22:00 <br>
-                    Föstudaga <br> 14:00-00:00 <br> Laugardaga <br> 12:00-00:00 <br> Sunnudaga <br> 12:00-22:00
-                </p>
-            </section>
-            <section style="flex: 1;">
-                <h2>
-                    Hér erum við
-                </h2>
-                <p>
-                    Spilabúðin ehf. <br>
-                    Spilagata 1 <br>
-                    101 Reykjavík <br>
-                    <a href="tel:1234567">Sími 123-4567</a> <br>
-                    <a href="mailto:spilabudin@example.org">spilabudin@example.org</a>
-                </p>
-            </section>
-            <section style="flex: 3;">
-                <h2>
-                    Samfélagsmiðlar
-                </h2>
-                <a href="https://www.facebook.com/HaskoliIslands/">Facebook</a><br>
-                <a href="https://www.youtube.com/user/HIvarp">YouTube</a><br>
-                <a href="https://www.instagram.com/haskoli_islands/">Instagram</a><br>
-            </section>
-        </footer>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Skráningarsíða fyrir viðburði Spilabúðarinnar">
+    <meta property="og:title" content="Spilabúðin">
+    <meta property="og:description" content="Spilabúðin selur spil, heldur viðburði og býður upp á skemmtilega stund. Kíktu á okkur á Spilagötu 1">
+    <meta property="og:image" content="https://vef1-2024-v2.netlify.app/myndir/sharing.jpg">
+    <title>Spilabúðin</title>
+</head>
+<body>
+    <header>
+        <h1>Skráning á viðburði</h1>
+        <p>Hér getur þú skráð þig á viðburðina okkar</p>
+    </header>
+    <p><a href="#efni">Beint í efni</a></p>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Forsíða</a></li>
+            <li><a href="/sidur/spil.html">Spil</a></li>
+            <li><a href="/sidur/vidburdir.html">Viðburðir</a></li>
+        </ul>
+    </nav>
+    <main id="efni">
+        <form style="display:flex; justify-content:space-around; flex-direction: column;">
+            <h3>Viðburður</h3>
+            <label for="vidburdir">Veldu viðburð</label>
+            <select name="viðburðir" id="vidburdir" style="flex: 1; width: 20%">
+                <option value="">Hvað viðburð viltu koma á?</option>
+                <option value="ticket-to-ride">Ticket to Ride</option>
+                <option value="puslkvöld">Púslkvöld</option>
+            </select>
+
+            <label for="fjoldi">Fjöldi</label>
+            <select name="fjöldi" id="fjoldi" style="flex: 2; width: 20%;">
+                <option value="">Hve mörg?</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+
+            <label for="fram-taka">Viltu taka eitthvað fram?</label>
+            <input type="text" id="fram-taka" style="flex: 3; width: 20%" placeholder="Hvað viltu taka fram?">
+
+            <h3>Panta mat</h3>
+            <label for="matur">Veldu mat</label>
+            <select name="panta-mat" id="matur" style="flex: 4; width: 20%">
+                <option value="">Veldu mat</option>
+                <option value="pizza-gos">Pizzusneið og gos</option>
+                <option value="kaffi-kaka">Kaffi og kaka</option>
+                <option value="ekkert">Engan mat</option>
+            </select>
+
+            <div style="display: flex; flex-direction: row;">
+                <label for="a-checkbox">Ofnæmi?</label>
+                <input type="checkbox" id="a-checkbox">
+            </div>
+
+            <label for="annað">Annað sem við eigum að vita?</label>
+            <input type="text" id="annað" style="flex: 6; width: 20%" placeholder="Annað sem við eigum að vita">
+
+            <h3>Þínar upplýsingar</h3>
+            <label for="nafn">Nafn</label>
+            <input type="text" id="nafn" style="flex: 7; width: 20%" placeholder="Nafn">
+
+            <label for="netfang">Netfang</label>
+            <input type="text" id="netfang" style="flex: 7; width: 20%" placeholder="Netfang">
+
+            <label for="sími">Sími</label>
+            <input type="text" id="sími" style="flex: 7; width: 20%" placeholder="Símanúmer">
+
+            <h3>Samþykkja og panta</h3>
+            <div style="display: flex; flex-direction: row;">
+                <label for="s-checkbox">Ég samþykki skilmála Spilabúðarinnar</label>
+                <input type="checkbox" id="s-checkbox">
+            </div>
+
+            <input type="submit" value="Panta" style="flex: 7; width: 10%">
+        </form>
+        <p><a href="../index.html">Aftur á forsíðu</a>.</p>
+    </main>
+    <footer style="display: flex; justify-content:space-between;">
+        <section style="flex: 1;">
+            <h2>Opnunartími</h2>
+            <p>
+                Mánudagar <br> Lokað <br> Þriðjudagar til fimmtudags <br> 14:00-22:00 <br>
+                Föstudaga <br> 14:00-00:00 <br> Laugardaga <br> 12:00-00:00 <br> Sunnudaga <br> 12:00-22:00
+            </p>
+        </section>
+        <section style="flex: 1;">
+            <h2>Hér erum við</h2>
+            <p>
+                Spilabúðin ehf. <br>
+                Spilagata 1 <br>
+                101 Reykjavík <br>
+                <a href="tel:1234567">Sími 123-4567</a> <br>
+                <a href="mailto:spilabudin@example.org">spilabudin@example.org</a>
+            </p>
+        </section>
+        <section style="flex: 3;">
+            <h2>Samfélagsmiðlar</h2>
+            <a href="https://www.facebook.com/HaskoliIslands/">Facebook</a><br>
+            <a href="https://www.youtube.com/user/HIvarp">YouTube</a><br>
+            <a href="https://www.instagram.com/haskoli_islands/">Instagram</a><br>
+        </section>
+    </footer>
+</body>
 </html>
