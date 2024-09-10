@@ -6,33 +6,41 @@
         <meta property="og:title" content="Spilabúðin">
         <meta property="og:description" content="Spilabúðin selur spil, heldur viðburði og býður upp á skemmtilega stund. Kíktu á okkur á Spilagötu 1">
         <meta property="og:image" content="https://vef1-2024-v2.netlify.app/myndir/sharing.jpg">
+        <link rel="stylesheet" href="../styles.css">
         <title>Spilabúðin</title>
     </head>
     <body>
-        <header>
-            <h1>Viðburðir</h1>
-        </header>
-        <p><a href="#efni">Beint í efni</a></p>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Forsíða</a></li>
-                <li><a href="/sidur/spil.html">Spil</a></li>
-                <li><a href="/sidur/skraning.html">Skráning á viðburði</a></li>
-            </ul>
-        </nav>
-        <main id="efni">
-            <h2>Púslkvöld</h2>
-            <img src="/myndir/puzzle.jpg" alt="puzzle.jpg" width="860">
-            <p>Komdu á púslukvöld í spilabúðina. Við bjóðum upp á púsluspil og góða stemningu. Byrjum snemma og endum seint. Allt frá 50 bitum upp í 5000 bita púsl. </p>
-            <a href="/sidur/skraning.html">Ská mig á púslkvöld</a>
-            <h2>Ticket to Ride</h2>
-            <img src="/myndir/ticket-to-ride.jpg" alt="ticket-to-ride.jpg" width="860">
-            <p>Elskar þú lestir og leiki? Komdu á Ticket to Ride viðburð í spilabúðina. Spilum allan daginn, bókaðu klukkustund eða lengur.</p>
-            <a href="/sidur/skraning.html">Skrá mig á Ticket to Ride</a>
-            <p><a href="../index.html">Aftur á forsíðu</a>.</p>
-        </main>
-        <footer style="display: flex; justify-content:space-between;">
-            <section style="flex: 1;">
+        <div class="wrapper">
+            <header>
+                <h1>Viðburðir</h1>
+            </header>
+            <p class="sr-only"><a href="#efni">Beint í efni</a></p>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Forsíða</a></li>
+                    <li><a href="/sidur/spil.html">Spil</a></li>
+                    <li><strong>Viðburðir</strong></li>
+                    <li><a href="/sidur/skraning.html">Skráning á viðburði</a></li>
+                </ul>
+            </nav>
+            <main id="efni">
+                <section class="event">
+                    <h2>Púslkvöld</h2>
+                    <img src="/myndir/puzzle.jpg" alt="puzzle.jpg" width="200">
+                    <p>Komdu á púslukvöld í spilabúðina. Við bjóðum upp á púsluspil og góða stemningu. Byrjum snemma og endum seint. Allt frá 50 bitum upp í 5000 bita púsl. </p>
+                    <a href="/sidur/skraning.html">Ská mig á púslkvöld</a>
+                </section>
+                <section class="event">
+                    <h2>Ticket to Ride</h2>
+                    <img src="/myndir/ticket-to-ride.jpg" alt="ticket-to-ride.jpg" width="200">
+                    <p>Elskar þú lestir og leiki? Komdu á Ticket to Ride viðburð í spilabúðina. Spilum allan daginn, bókaðu klukkustund eða lengur.</p>
+                    <a href="/sidur/skraning.html">Skrá mig á Ticket to Ride</a>
+                </section>
+                <p><a href="../index.html">Aftur á forsíðu</a>.</p>
+            </main>
+        </div>
+        <footer>
+            <section>
                 <h2>
                     Opnunartími
                 </h2>
@@ -41,7 +49,7 @@
                     Föstudaga <br> 14:00-00:00 <br> Laugardaga <br> 12:00-00:00 <br> Sunnudaga <br> 12:00-22:00
                 </p>
             </section>
-            <section style="flex: 1;">
+            <section>
                 <h2>
                     Hér erum við
                 </h2>
@@ -53,7 +61,7 @@
                     <a href="mailto:spilabudin@example.org">spilabudin@example.org</a>
                 </p>
             </section>
-            <section style="flex: 3;">
+            <section>
                 <h2>
                     Samfélagsmiðlar
                 </h2>
@@ -61,6 +69,6 @@
                 <a href="https://www.youtube.com/user/HIvarp">YouTube</a><br>
                 <a href="https://www.instagram.com/haskoli_islands/">Instagram</a><br>
             </section>
-        </footer>
+    </footer>
     </body>
 </html>

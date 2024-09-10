@@ -7,181 +7,166 @@
         <meta property="og:title" content="Spilabúðin">
         <meta property="og:description" content="Spilabúðin selur spil, heldur viðburði og býður upp á skemmtilega stund. Kíktu á okkur á Spilagötu 1">
         <meta property="og:image" content="https://vef1-2024-v2.netlify.app/myndir/sharing.jpg">
-        <link rel="stylesheet" href="/styles.css">
+        <link rel="stylesheet" href="../styles.css">
         <title>Spilabúðin</title>
     </head>
     <body>
-        <header>
-            <h1>Spil</h1>
-            <p>Hér er úrvalið okkar af spilum</p>
-        </header>
-        <p><a href="#efni">Beint í efni</a></p>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Forsíða</a></li>
-                <li><a href="/sidur/skraning.html">Skráning á viðburði</a></li>
-                <li><a href="/sidur/vidburdir.html">Viðburðir</a></li>
-            </ul>
-        </nav>
+        <div class="wrapper">
+            <header>
+                <h1>Spil</h1>
+            </header>
+            <p class="sr-only"><a href="#efni">Beint í efni</a></p>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Forsíða</a></li>
+                    <li><strong>Spil</strong></li>
+                    <li><a href="/sidur/vidburdir.html">Viðburðir</a></li>
+                    <li><a href="/sidur/skraning.html">Skráning á viðburði</a></li>
+                </ul>
+            </nav>
+            <main id="efni">
+                <table>
+                    <caption>Spilin sem við seljum</caption>
+                    <thead>
+                        <tr class="c1">
+                            <th scope="col">Mynd</th>
+                            <th scope="col">Nr.</th>
+                            <th scope="col">Titill</th>
+                            <th scope="col">Lýsing</th>
+                            <th scope="col">Einkunn</th>
+                            <th scope="col">Verð</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="/myndir/brass.jpg" alt="brass.jpg" width="250"></td>
+                            <td>1</td>
+                            <th scope="row">Brass: Birmingham (2018)</th>
+                            <td>Build networks, grow industries, and navigate the world of the Industrial Revolution.</td>
+                            <td><a href="https://boardgamegeek.com/boardgame/224517/brass-birmingham">8.414</a></td>
+                            <td>12.000 Kr.</td>
+                        </tr>
+                        <tr class="c1">
+                            <td><img src="/myndir/pandemic.jpg" alt="pandemic.jpg" width="250"></td>
+                            <td>2</td>
+                            <th scope="row">Pandemic Legacy: Season 1 (2015)</th>
+                            <td>Mutating diseases are spreading around the world - can your team save humanity?</td>
+                            <td><a href="https://boardgamegeek.com/boardgame/161936/pandemic-legacy-season-1">8.377</a></td>
+                            <td>10.000 Kr.</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/myndir/gloomhaven.jpg" alt="gloomhaven.jpg" width="250"></td>
+                            <td>3</td>
+                            <th scope="row">Gloomhaven (2017)</th>
+                            <td>Vanquish monsters with strategic cardplay. Fulfill your quest to leave your legacy!</td>
+                            <td><a href="https://boardgamegeek.com/boardgame/174430/gloomhaven">8.349</a></td>
+                            <td>25.000 Kr.</td>
+                        </tr>
+                        <tr class="c1">
+                            <td><img src="/myndir/arknova.jpg" alt="arknova.jpg" width="250"></td>
+                            <td>4</td>
+                            <th scope="row">Ark Nova (2021)</th>
+                            <td>Plan and build a modern, scientifically managed zoo to support conservation projects.</td>
+                            <td><a href="https://boardgamegeek.com/boardgame/342942/ark-nova">8.335</a></td>
+                            <td>8.000 Kr.</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/myndir/twilight-imperium.jpg" alt="twilight-imperium.jpg" width="250"></td>
+                            <td>5</td>
+                            <th scope="row">Twilight Imperium: Fourth Edition (2017)</th>
+                            <td>Build an intergalactic empire through trade, research, conquest, and grand politics.</td>
+                            <td><a href="https://boardgamegeek.com/boardgame/233078/twilight-imperium-fourth-edition">8.239</a></td>
+                            <td>15.000 Kr.</td>
+                        </tr>
+                        <tr class="c1">
+                            <td><img src="/myndir/dune.jpg" alt="dune.jpg" width="250"></td>
+                            <td>6</td>
+                            <th scope="row">Dune Imperium (2020)</th>
+                            <td>Influence, intrigue, and combat in the universe of Dune.</td>
+                            <td><a href="https://boardgamegeek.com/boardgame/316554/dune-imperium">8.230</a></td>
+                            <td>9.000 Kr.</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/myndir/terraforming-mars.jpg" alt="terraforming-mars.jpg" width="250"></td>
+                            <td>7</td>
+                            <th scope="row">Terraforming Mars (2016)</th>
+                            <td>Compete with rival CEOs to make Mars habitable and build your corporate empire.</td>
+                            <td><a href="https://boardgamegeek.com/boardgame/167791/terraforming-mars">8.210</a></td>
+                            <td>8.500 Kr.</td>
+                        </tr>
+                        <tr class="c1">
+                            <td><img src="/myndir/war-of-the-ring.jpg" alt="war-of-the-ring.jpg" width="250"></td>
+                            <td>8</td>
+                            <th scope="row">War of the Ring: Second Edition (2011)</th>
+                            <td>The Fellowship and the Free Peoples clash with Sauron over the fate of Middle-earth.</td>
+                            <td><a href="https://boardgamegeek.com/boardgame/115746/war-of-the-ring-second-edition">8.187</a></td>
+                            <td>11.000 Kr.</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/myndir/star-wars.jpg" alt="star-wars.jpg" width="250"></td>
+                            <td>9</td>
+                            <th scope="row">Star Wars: Rebellion (2016)</th>
+                            <td>Strike from your hidden base as the Rebels—or find and destroy it as the Empire.</td>
+                            <td><a href="https://boardgamegeek.com/boardgame/187645/star-wars-rebellion">8.170</a></td>
+                            <td>9.000 Kr.</td>
+                        </tr>
+                        <tr class="c1">
+                            <td><img src="/myndir/gloomhaven-jaws.jpg" alt="gloomhaven-jaws.jpg" width="250"></td>
+                            <td>10</td>
+                            <th scope="row">Gloomhaven: Jaws of the Lion (2020)</th>
+                            <td>Vanquish monsters with strategic cardplay in a 25-scenario Gloomhaven campaign.</td>
+                            <td><a href="https://boardgamegeek.com/boardgame/291457/gloomhaven-jaws-lion">8.159</a></td>
+                            <td>10.000 Kr.</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/myndir/spirit-island.jpg" alt="spirit-island.jpg" width="250"></td>
+                            <td>11</td>
+                            <th scope="row">Spirit Island (2017)</th>
+                            <td>Island Spirits join forces using elemental powers to defend their home from invaders.</td>
+                            <td><a href="https://boardgamegeek.com/boardgame/162886/spirit-island">8.145</a></td>
+                            <td>5.000 Kr.</td>
+                        </tr>
+                        <tr class="c1">
+                            <td><img src="/myndir/gaia-project.jpg" alt="gaia-project.jpg" width="250"></td>
+                            <td>12</td>
+                            <th scope="row">Gaia Project (2017)</th>
+                            <td>Expand, research, upgrade, and settle the galaxy with one of 14 alien species.</td>
+                            <td><a href="https://boardgamegeek.com/boardgame/220308/gaia-project">8.111</a></td>
+                            <td>3.000 Kr.</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/myndir/twilight-struggle.jpg" alt="twilight-struggle.jpg" width="250"></td>
+                            <td>13</td>
+                            <th scope="row">Twilight Struggle (2005)</th>
+                            <td>Relive the Cold War and rewrite history in an epic clash between the USA and USSR.</td>
+                            <td><a href="https://boardgamegeek.com/boardgame/12333/twilight-struggle">8.066</a></td>
+                            <td>6.000 Kr.</td>
+                        </tr>
+                        <tr class="c1">
+                            <td><img src="/myndir/through-the-ages.jpg" alt="through-the-ages.jpg" width="250"></td>
+                            <td>14</td>
+                            <th scope="row">Through the Ages: A New Story of Civilization (2015)</th>
+                            <td>Rewrite history as you build up your civilization in this epic card drafting game!</td>
+                            <td><a href="https://boardgamegeek.com/boardgame/182028/through-ages-new-story-civilization">8.055</a></td>
+                            <td>8.000 Kr.</td>
+                        </tr>
+                        <tr>
+                            <td><img src="/myndir/great-western-trail.jpg" alt="great-western-trail.jpg" width="250"></td>
+                            <td>15</td>
+                            <th scope="row">Great Western Trail (2016)</th>
+                            <td>Use strategic outposts and navigate danger as you herd your cattle to Kansas City.</td>
+                            <td><a href="https://boardgamegeek.com/boardgame/193738/great-western-trail">8.022</a></td>
+                            <td>10.500 Kr.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p><a href="../index.html">Aftur á forsíðu</a>.</p>
+            </main>
 
-        <main id="efni">
-            <table>
-                <caption>Spilin sem við seljum</caption>
-                <thead>
-                    <tr>
-                        <th scope="col">Nr.</th>
-                        <th scope="col">Titill</th>
-                        <th scope="col">Lýsing</th>
-                        <th scope="col">Einkunn</th>
-                        <th scope="col">Mynd</th>
-                        <th scope="col">Nánari upplýsingar</th>
-                        <th scope="col">Verð</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="rowgroup" colspan="7"></th>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <th scope="row">Brass: Birmingham (2018)</th>
-                        <td>Build networks, grow industries, and navigate the world of the Industrial Revolution.</td>
-                        <td>8.414</td>
-                        <td><img src="/myndir/brass.jpg" alt="brass.jpg" width="150" height="150"></td>
-                        <td><a href="https://boardgamegeek.com/boardgame/224517/brass-birmingham">Nánari upplýsingar</a></td>
-                        <td>12.000 Kr.</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <th scope="row">Pandemic Legacy: Season 1 (2015)</th>
-                        <td>Mutating diseases are spreading around the world - can your team save humanity?</td>
-                        <td>8.377</td>
-                        <td><img src="/myndir/pandemic.jpg" alt="pandemic.jpg" width="150" height="150"></td>
-                        <td><a href="https://boardgamegeek.com/boardgame/161936/pandemic-legacy-season-1">Nánari upplýsingar</a></td>
-                        <td>10.000 Kr.</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <th scope="row">Gloomhaven (2017)</th>
-                        <td>Vanquish monsters with strategic cardplay. Fulfill your quest to leave your legacy!</td>
-                        <td>8.349</td>
-                        <td><img src="/myndir/gloomhaven.jpg" alt="gloomhaven.jpg" width="150" height="150"></td>
-                        <td><a href="https://boardgamegeek.com/boardgame/174430/gloomhaven">Nánari upplýsingar</a></td>
-                        <td>25.000 Kr.</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <th scope="row">Ark Nova (2021)</th>
-                        <td>Plan and build a modern, scientifically managed zoo to support conservation projects.</td>
-                        <td>8.335</td>
-                        <td><img src="/myndir/arknova.jpg" alt="arknova.jpg" width="150" height="150"></td>
-                        <td><a href="https://boardgamegeek.com/boardgame/342942/ark-nova">Nánari upplýsingar</a></td>
-                        <td>8.000 Kr.</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <th scope="row">Twilight Imperium: Fourth Edition (2017)</th>
-                        <td>Build an intergalactic empire through trade, research, conquest and grand politics.</td>
-                        <td>8.239</td>
-                        <td><img src="/myndir/twilight-imperium.jpg" alt="twilight-imperium.jpg" width="150" height="150"></td>
-                        <td><a href="https://boardgamegeek.com/boardgame/233078/twilight-imperium-fourth-edition">Nánari upplýsingar</a></td>
-                        <td>15.000 Kr.</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <th scope="row">Dune Imperium (2020)</th>
-                        <td>Influence, intrigue, and combat in the universe of Dune.</td>
-                        <td>8.23</td>
-                        <td><img src="/myndir/dune.jpg" alt="dune.jpg" width="150" height="150"></td>
-                        <td><a href="https://boardgamegeek.com/boardgame/316554/dune-imperium">Nánari upplýsingar</a></td>
-                        <td>9.000 Kr.</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <th scope="row">Terraforming Mars (2016)</th>
-                        <td>Compete with rival CEOs to make Mars habitable and build your corporate empire.</td>
-                        <td>8.21</td>
-                        <td><img src="/myndir/terraforming-mars.jpg" alt="terraforming-mars.jpg" width="150" height="150"></td>
-                        <td><a href="https://boardgamegeek.com/boardgame/167791/terraforming-mars">Nánari upplýsingar</a></td>
-                        <td>8.500 Kr.</td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <th scope="row">War of the Ring: Second Edition (2011)</th>
-                        <td>The Fellowship and the Free Peoples clash with Sauron over the fate of Middle-earth.</td>
-                        <td>8.187</td>
-                        <td><img src="/myndir/war-of-the-ring.jpg" alt="war-of-the-ring.jpg" width="150" height="150"></td>
-                        <td><a href="https://boardgamegeek.com/boardgame/115746/war-of-the-ring-second-edition">Nánari upplýsingar</a></td>
-                        <td>11.000 Kr.</td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <th scope="row">Star Wars: Rebellion (2016)</th>
-                        <td>Strike from your hidden base as the Rebels—or find and destroy it as the Empire.</td>
-                        <td>8.17</td>
-                        <td><img src="/myndir/star-wars.jpg" alt="star-wars.jpg" width="150" height="150"></td>
-                        <td><a href="https://boardgamegeek.com/boardgame/187645/star-wars-rebellion">Nánari upplýsingar</a></td>
-                        <td>9.000 Kr.</td>
-                    </tr>
-                    <tr>
-                        <td>10</td>
-                        <th scope="row">Gloomhaven: Jaws of the Lion (2020)</th>
-                        <td>Vanquish monsters with strategic cardplay in a 25-scenario Gloomhaven campaign.</td>
-                        <td>8.159</td>
-                        <td><img src="/myndir/gloomhaven-jaws.jpg" alt="gloomhaven-jaws.jpg" width="150" height="150"></td>
-                        <td><a href="https://boardgamegeek.com/boardgame/291457/gloomhaven-jaws-lion">Nánari upplýsingar</a></td>
-                        <td>10.000 Kr.</td>
-                    </tr>
-                    <tr>
-                        <td>11</td>
-                        <th scope="row">Spirit Island (2017)</th>
-                        <td>Island Spirits join forces using elemental powers to defend their home from invaders.</td>
-                        <td>8.145</td>
-                        <td><img src="/myndir/spirit-island.jpg" alt="spirit-island.jpg" width="150" height="150"></td>
-                        <td><a href="https://boardgamegeek.com/boardgame/162886/spirit-island">Nánari upplýsingar</a></td>
-                        <td>5.000 Kr.</td>
-                    </tr>
-                    <tr>
-                        <td>12</td>
-                        <th scope="row">Gaia Project (2017)</th>
-                        <td>Expand, research, upgrade, and settle the galaxy with one of 14 alien species.</td>
-                        <td>8.111</td>
-                        <td><img src="/myndir/gaia-project.jpg" alt="gaia-project.jpg" width="150" height="150"></td>
-                        <td><a href="https://boardgamegeek.com/boardgame/220308/gaia-project">Nánari upplýsingar</a></td>
-                        <td>3.000 Kr.</td>
-                    </tr>
-                    <tr>
-                        <td>13</td>
-                        <th scope="row">Twilight Struggle (2005)</th>
-                        <td>Relive the Cold War and rewrite history in an epic clash between the USA and USSR.</td>
-                        <td>8.066</td>
-                        <td><img src="/myndir/twilight-struggle.jpg" alt="twilight-struggle.jpg" width="150" height="150"></td>
-                        <td><a href="https://boardgamegeek.com/boardgame/12333/twilight-struggle">Nánari upplýsingar</a></td>
-                        <td>6.000 Kr.</td>
-                    </tr>
-                    <tr>
-                        <td>14</td>
-                        <th scope="row">Through the Ages: A New Story of Civilization (2015)</th>
-                        <td>Rewrite history as you build up your civilization in this epic card drafting game!</td>
-                        <td>8.055</td>
-                        <td><img src="/myndir/through-the-ages.jpg" alt="through-the-ages.jpg" width="150" height="150"></td>
-                        <td><a href="https://boardgamegeek.com/boardgame/182028/through-ages-new-story-civilization">Nánari upplýsingar</a></td>
-                        <td>8.000 Kr.</td>
-                    </tr>
-                    <tr>
-                        <td>15</td>
-                        <th scope="row">Great Western Trail (2016)</th>
-                        <td>Use strategic outposts and navigate danger as you herd your cattle to Kansas City.</td>
-                        <td>8.022</td>
-                        <td><img src="/myndir/great-western-trail.jpg" alt="great-western-trail.jpg" width="150" height="150"></td>
-                        <td><a href="https://boardgamegeek.com/boardgame/193738/great-western-trail">Nánari upplýsingar</a></td>
-                        <td>10.500 Kr.</td>
-                </tbody>
-            </table>
-            <p><a href="../index.html">Aftur á forsíðu</a>.</p>
-        </main>
-        <footer style="display: flex; justify-content:space-between;">
-            <section style="flex: 1;">
+        </div>
+        <footer>
+            <section>
                 <h2>
                     Opnunartími
                 </h2>
@@ -190,7 +175,7 @@
                     Föstudaga <br> 14:00-00:00 <br> Laugardaga <br> 12:00-00:00 <br> Sunnudaga <br> 12:00-22:00
                 </p>
             </section>
-            <section style="flex: 1;">
+            <section>
                 <h2>
                     Hér erum við
                 </h2>
@@ -202,7 +187,7 @@
                     <a href="mailto:spilabudin@example.org">spilabudin@example.org</a>
                 </p>
             </section>
-            <section style="flex: 3;">
+            <section>
                 <h2>
                     Samfélagsmiðlar
                 </h2>
@@ -210,6 +195,6 @@
                 <a href="https://www.youtube.com/user/HIvarp">YouTube</a><br>
                 <a href="https://www.instagram.com/haskoli_islands/">Instagram</a><br>
             </section>
-        </footer>
+    </footer>
     </body>
 </html>

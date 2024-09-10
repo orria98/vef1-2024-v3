@@ -134,3 +134,4 @@ Sett verða fyrir tíu minni verkefni þar sem átta bestu gilda 5% hvert, samta
 Sett verða fyrir tvö hópverkefni þar sem hvort um sig gildir 10%, samtals 20% af lokaeinkunn.
 
 > Útgáfa 0.1
+# vef1-2024-v3
