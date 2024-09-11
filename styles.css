@@ -167,6 +167,7 @@
     background-color: #eebbdd;
     border-top: 4px solid #cc99bb;
     text-align: center;
+    padding: 1rem;
 
   }
   
@@ -180,7 +181,18 @@
   }
   
   /* TODO Skilgreina aðra selectora fyrir fót */
-  
+
+  footer h2 {
+    margin-bottom: 1rem;
+  }
+
+  footer ul {
+    list-style: none;
+  }
+
+  footer dl dt {
+    font-weight: bold;
+  }
   /** Spilasíða, töflustílar **/
   
   table {
