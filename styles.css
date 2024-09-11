@@ -80,6 +80,7 @@
     max-width: 100%;
     float: right;
     border-radius: 5px;
+    margin-bottom: 1rem;
   }
   
   /** Litur á hlekkjum erfist frá foreldri **/
@@ -149,11 +150,13 @@
     margin: 0 auto;
     padding-left: 1rem;
     padding-right: 1rem;
-    max-width: 900px;
+    width: 900px;
   }
   main p {
     text-align: left;
+    margin-bottom: 1rem;
   }
+
 
   
   /* TODO Skilgreina aðra selectora fyrir meginmál of forsíðu */
@@ -212,7 +215,7 @@
 
   .event p {
     text-align: left;
-    padding-bottom: 7rem;
+    padding-bottom: 5.5rem;
   }
 
   
@@ -226,24 +229,41 @@
   .event img {
     float: left;
     border-radius: 5px;
-    margin-right: 15px;
-    width: 200px;
+    margin-right: 1rem;
+    width: 12rem;
     height: auto;
   }
 
   
   /** Skráningarform **/
   .form {
-    margin: 0 auto;
+    margin-left: 0;
+    float: left;
     padding: 1rem;
   }
   
+  
   /* TODO Skilgreina */
+
+  .main-form {
+    margin-left: 0;
+    float: left;
+    padding: 1rem;
+    width: 35%;
+  }
+
+  .main-form a {
+    text-align: left;
+    float: left;
+  }
+
+  
 
   .form button {
     padding: 0.5rem 1rem;
     background-color: #eebbdd;
     border-radius: 5px;
+    float: left;
   }
 
   .form fieldset {
@@ -268,7 +288,7 @@
   .check input {
     display: inline-block;
     width: auto; 
-    margin-right: 8px; 
+    margin-right: 0.5rem; 
   }
   
   .form label.check {
