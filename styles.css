@@ -211,6 +211,10 @@
     border-end-end-radius: 5px;
 
   }
+
+  table tr {
+    margin-bottom: 1rem;
+  }
   
   /** Viðburðir **/
   
